@@ -27,7 +27,7 @@ Leggi entrambi prima di toccare qualsiasi cosa.
 - Nessuna cancellazione senza conferma esplicita dell'utente.
 - Nessuna cancellazione senza copia locale fatta prima.
 - Icone: solo Tabler Icons.
-- Font: Outfit per i testi, Xmind per i numeri.
+- Font: Outfit per i testi, [Xmind](https://fonts.google.com/specimen/Xmind) per i numeri.
 - Stack: Tauri 2 + Rust.
 
 ## 4. Regole di lavoro

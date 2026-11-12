@@ -66,7 +66,7 @@ un'estensione browser compagna.
 | Misura | Cosa misura |
 | --- | --- |
 | Età | Tempo dall'ultimo messaggio. Soglia di default: 1 mese, regolabile nelle impostazioni. |
-| Lunghezza | Quanto è corta la chat. |
+| Lunghezza | Numero di messaggi dell'utente nella chat. Soglia da definire in sviluppo. |
 | Isolamento | Distanza dalla chat più simile. |
 | Peso dell'argomento | Quanto pesa il suo argomento sul totale dello storico. |
 

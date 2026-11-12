@@ -4,7 +4,8 @@ Nota: da rivedere in fase di sviluppo.
 
 ## Stile
 
-App desktop pulita. Riferimento: Opal.
+App desktop pulita. Riferimento: Opal, l'app di screen time
+([opal.so](https://opal.so)). Riferimento di stile, non di funzioni.
 
 - Scuro.
 - Tanta aria.
@@ -22,7 +23,7 @@ Da Google Fonts.
 | Uso | Font |
 | --- | --- |
 | Testi | Outfit |
-| Numeri | Xmind |
+| Numeri | [Xmind](https://fonts.google.com/specimen/Xmind) |
 
 ## Icone
 
