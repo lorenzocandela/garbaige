@@ -2,7 +2,7 @@
 
 Nota: da rivedere in fase di sviluppo.
 
-## Stile
+## stile
 
 App desktop pulita. Riferimento: Opal, l'app di screen time
 ([opal.so](https://opal.so)). Riferimento di stile, non di funzioni.
@@ -12,11 +12,11 @@ App desktop pulita. Riferimento: Opal, l'app di screen time
 - Pochi elementi per schermata.
 - Numeri grandi.
 
-## Tema
+## tema
 
 Solo dark. Non esiste un tema chiaro.
 
-## Font
+## font
 
 Da Google Fonts.
 
@@ -25,11 +25,11 @@ Da Google Fonts.
 | Testi | Outfit |
 | Numeri | [Xmind](https://fonts.google.com/specimen/Xmind) |
 
-## Icone
+## icone
 
 Solo Tabler Icons. Mai altre librerie, mai emoji.
 
-## Colori
+## colori
 
 Base: VS Code Dark.
 
@@ -43,7 +43,7 @@ Base: VS Code Dark.
 | Testo secondario | `#9d9d9d` |
 | Accento | `#569cd6` |
 
-### Fasce
+### fasce
 
 | Fascia | Valore |
 | --- | --- |
@@ -54,11 +54,11 @@ Base: VS Code Dark.
 
 Sempre con etichetta o icona. Mai solo colore.
 
-## Spaziatura
+## spaziatura
 
 Griglia a 4px. Valori ammessi: 4, 8, 12, 16, 24, 32, 48.
 
-## Raggi
+## raggi
 
 | Elemento | Raggio |
 | --- | --- |
@@ -67,12 +67,12 @@ Griglia a 4px. Valori ammessi: 4, 8, 12, 16, 24, 32, 48.
 | Finestre e modali | 16 |
 | Tag | pillola |
 
-## Movimento
+## movimento
 
 - Transizioni tra 150 e 200 ms.
 - Nessuna animazione decorativa.
 
-## Regole d'uso
+## regole d'uso
 
 - Il rosso solo sull'azione di cancellare.
 - Una sola azione principale per schermata.

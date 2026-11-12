@@ -10,7 +10,7 @@
 
 ---
 
-## Cos'è
+## cos'è
 
 Un'app desktop che ripulisce lo storico delle chat AI da un posto solo.
 
@@ -20,7 +20,7 @@ copia in locale.
 
 Gira tutto sulla tua macchina. Niente server, niente registrazione.
 
-## Il problema
+## il problema
 
 Usi lo stesso account da più canali. Lo sporco si accumula in due posti:
 sul disco e sui server del provider. Oggi si pulisce a pezzi, con strumenti
@@ -33,7 +33,7 @@ Per sporco si intende:
 - chat senza correlazione con nessun'altra
 - chat lontane dagli argomenti che coprono la maggior parte dello storico
 
-## Come funziona
+## come funziona
 
 1. **Collega.** Clic sull'icona del provider, login in una finestra dell'app.
    Il canale CLI viene trovato sul disco e agganciato allo stesso account.
@@ -45,12 +45,12 @@ Per sporco si intende:
 5. **Copia e cancella.** Prima la copia in locale, poi la cancellazione alla
    fonte.
 
-## Per chi
+## per chi
 
 Per il dev che usa l'AI come assistente di lavoro e alterna CLI e web sullo
 stesso account.
 
-## Stato del progetto
+## stato del progetto
 
 Alpha in definizione.
 
@@ -63,7 +63,7 @@ modalità: Pulizia.
 La prima incognita tecnica è ancora da provare: login, lettura dell'elenco
 chat e cancellazione su claude.ai da dentro l'app.
 
-## Documenti
+## documenti
 
 - [docs/alpha.md](docs/alpha.md): definizione completa dell'Alpha.
 - [docs/design.md](docs/design.md): linee guida di interfaccia.

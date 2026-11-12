@@ -1,9 +1,9 @@
-# GarbAIge: definizione dell'Alpha
+# GarbAIge: definizione dell'alpha
 
 Stato: Alpha in definizione. Questo documento descrive cosa si vuole
 costruire. Niente di quanto segue è ancora implementato.
 
-## Goal
+## goal
 
 Un'app desktop che ripulisce lo storico delle chat AI da un posto solo.
 
@@ -13,7 +13,7 @@ Un'app desktop che ripulisce lo storico delle chat AI da un posto solo.
 
 Gira tutto sulla macchina dell'utente. Niente server, niente registrazione.
 
-## Pain
+## pain
 
 Lo stesso account viene usato da più canali. Lo sporco si accumula sparso
 tra disco e server. Oggi si pulisce a pezzi, con strumenti diversi.
@@ -25,43 +25,43 @@ Sporco significa:
 - chat senza correlazione con nessun'altra
 - chat lontane dagli argomenti che coprono la maggior parte dello storico
 
-## Target
+## target
 
 Il dev che usa l'AI come assistente di lavoro e alterna CLI e web sullo
 stesso account.
 
-## Architettura
+## architettura
 
 - App desktop Tauri 2. Logica in Rust, interfaccia web.
 - Struttura dei dati: provider -> account -> canali.
 - Tutti i dati restano in locale.
 
-### Collegamento
+### collegamento
 
 1. Clic sull'icona del provider.
 2. Login in una finestra dell'app.
 3. Il canale web è collegato.
 4. Il canale CLI viene trovato sul disco e agganciato allo stesso account.
 
-### Piano B per il web
+### piano b per il web
 
 Se il login in finestra viene bloccato, il canale web passa da
 un'estensione browser compagna.
 
-## Analisi
+## analisi
 
-### Cosa si tiene di ogni chat
+### cosa si tiene di ogni chat
 
 - Il titolo.
 - I messaggi dell'utente.
 
-### Come si confrontano le chat
+### come si confrontano le chat
 
 - Modello di embedding locale e multilingua. Le chat sono miste, italiano
   e inglese.
 - Le chat vengono raggruppate in argomenti. Ogni argomento ha un nome.
 
-### Le quattro misure
+### le quattro misure
 
 | Misura | Cosa misura |
 | --- | --- |
@@ -70,12 +70,12 @@ un'estensione browser compagna.
 | Isolamento | Distanza dalla chat più simile. |
 | Peso dell'argomento | Quanto pesa il suo argomento sul totale dello storico. |
 
-### Segnali extra
+### segnali extra
 
 - Sessioni CLI: la cartella di progetto.
 - Web: progetti e chat fissate non vanno mai nella fascia "sicure".
 
-### Risultato: tre fasce
+### risultato: tre fasce
 
 - **Sicure.** Più criteri d'accordo. Preselezionate, si approvano con un clic.
 - **Probabili.** Raggruppate per motivo o per argomento. Si approva il gruppo.
@@ -83,7 +83,7 @@ un'estensione browser compagna.
 
 Regola: l'isolamento da solo non porta mai una chat tra le sicure.
 
-## Flusso utente
+## flusso utente
 
 1. Collega.
 2. Scansione e analisi.
@@ -95,12 +95,12 @@ Regola: l'isolamento da solo non porta mai una chat tra le sicure.
 La copia locale viene sempre prima della cancellazione. Senza conferma non
 si cancella nulla.
 
-## Perimetro dell'Alpha
+## perimetro dell'alpha
 
 - Solo Claude: Claude Code su disco e claude.ai.
 - Solo modalità Pulizia.
 
-### Prima incognita tecnica
+### prima incognita tecnica
 
 Da provare prima di tutto il resto, su claude.ai e da dentro l'app:
 
@@ -110,7 +110,7 @@ Da provare prima di tutto il resto, su claude.ai e da dentro l'app:
 
 Se non regge, si passa al piano B: l'estensione browser compagna.
 
-## Dopo l'Alpha
+## dopo l'alpha
 
 Fuori perimetro. Solo elencati.
 
